@@ -1,22 +1,34 @@
-body{
+*{
     margin: 0;
     padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .first-box{
     background-color: #1F2937;
     color: white;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.navigation-left ul li{
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.navigation-left li{
     font-size: 24px;
     color: #F9FAF8;
+    list-style: none;
+    font-weight: bolder;
 }
 
-.navigation-right ul li, p{
+.navigation-right ul li{
     color: #E5E7EB;
     font-size: 18px;
+    list-style: none;
+    display: inline-block;
+    padding: 0px 20px;
 }
 
 .first-box h1{
@@ -28,4 +40,113 @@ body{
 .first-box button{
     background-color: #3882F6;
     color: #F9FAF8;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-style: none;
+    border-radius: 10px;
+    display: block;
+}
+
+.first-box img{
+    background-color: grey;
+    padding: 100px 30px;
+}
+
+.content{
+    padding: 100px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.content p{
+    padding-bottom: 10px;
+}
+
+/* SECOND PART */
+
+.second-box{
+    margin-bottom: 100px;
+}
+
+.second-box h1{
+    font: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+    margin: 30px;
+}
+
+.second-box .image{
+    border: 2px solid #3882F6;
+    border-radius: 5px;
+    padding: 70px 30px;
+    margin: 10px;
+}
+
+.image-container{
+    display: flex;
+    justify-content: center;
+}
+
+.image-text{
+    text-align: center;
+}
+
+/* THIRD PART */
+
+.quote{
+    background-color: #E5E7EB;
+    padding: 100px 321px 100px 350px;
+}
+
+.quote h1{
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+
+}
+
+.quote p{
+    font-weight: bold;
+    color: #1F2937;
+    text-align: end;
+}
+
+/* FOURTH PART */
+
+.sign-up{
+    padding: 100px;
+}
+
+.box{
+    background-color: #3882F6;
+    padding: 30px;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box button{
+    background-color: #3882F6;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+
+/* LAST */
+
+.footer{
+    color: white;
+    background-color: #1F2937;
+    padding: 25px;
+}
+
+.footer h3{
+    text-align: center;
+    font-weight: lighter;
 }
